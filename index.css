@@ -1,0 +1,241 @@
+body{
+	background:black;
+	color:white;
+}
+header {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background: black;
+}
+
+.container {width: 1100px;margin: auto;}
+.manuwraper {
+    overflow: hidden;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    color: #fb5200;
+}
+
+.manu {
+    width: 900px;
+    float: right;
+}
+
+.manu ul {list-style: none;overflow: hidden;float: right;margin-right: 106px;}
+
+.manu ul li {
+    float: left;
+    padding: 10px;
+}
+
+.manu ul li a {
+    color: bisque;
+    text-decoration: none;
+    font-size: 19px;
+    transition: all .2s;
+}
+
+.manu ul li a:hover {
+    color: #fb5200;
+	d
+	
+}
+
+section.slider {background-image: linear-gradient(45deg, #00000070, #00000070), url(slider.jpg);}
+
+.sidewraper {
+    overflow: hidden;
+}
+
+.sectiontitle {
+    width: 600px;
+    margin: auto;
+}
+
+.slider .sectiontitle h1 {
+    font-size: 53px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: -14px;
+    margin-top: 104px;
+}
+
+.slider .sectiontitle p {
+    font-size: 23px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: monospace;
+}
+.sectiontitle a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: transparent;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 130px;
+    margin-top: 49px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    text-transform: capitalize;
+    transition: .2s;
+    border-radius: 7px;
+}
+
+.sectiontitle a:hover {
+    background: white;
+    color: #333;
+}
+.sectiontitle h1 {
+    text-align: center;
+    font-size: 43px;
+    font-family: sans-serif;
+    color: #fb5200;
+}
+
+.sectiontitle p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: -18px;
+}
+
+.servicewraper {
+    overflow: hidden;
+}
+
+.singleSbox {
+    width: 336px;
+    overflow: hidden;
+    margin-right: 30px;
+    float: left;
+    margin-bottom: 39px;
+}
+
+.Sicon {
+    font-size: 53px;
+}
+
+.Sicon a i {
+    color: #FB5200;
+}
+
+.Sinfo h3 {
+    font-size: 31px;
+    font-family: monospace;
+    word-spacing: -9px;
+    letter-spacing: -2px;
+}
+
+.singleSbox:last-child {
+    margin-right: 0px;
+}
+
+.Sinfo p {
+    font-size: 17px;
+    margin-top: -8px;
+    color: #864c4c;
+    font-family: sans-serif;
+}
+
+section#service {
+    padding: 80px 0px;
+}
+h1#sliderid {
+    color: white;
+    word-spacing: -4px;
+    margin-bottom: 38px;
+}
+.Parwraper {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.img {
+    width: 528px;
+    overflow: hidden;
+    float: left;
+}
+
+.img img {
+    width: 100%;
+}
+
+section#parfermance {
+    padding: 24px 0px;
+}
+.rightcontent {
+    width: 451px;
+    float: right;
+}
+
+.info {
+    padding: 22px;
+    margin-top: 36px;
+}
+
+.info h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fb5200;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+}
+
+.info p {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #864c4c;
+    margin-bottom: 57px;
+}
+
+.ulchackicon ul {
+    list-style: none;
+    margin-top: -109px;
+    margin-left: 0px;
+}
+
+.ticmark {position: relative;width: 25px;height: 33px;left: -40px;top: 124px;color: #fb5200;}
+
+.ticmark:before {
+    position: absolute;
+    left: 0;
+    top: 49%;
+    height: 50%;
+    width: 2px;
+    background-color: #fb5200;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+.ticmark:after {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fb5200;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+.ulchackicon ul li {
+    font-size: 26px;
+    margin-top: 3px;
+    color: #fb5200;
+}
+
+.leftcontent {
+    width: 451px;
+    float: left;
+    margin-right: 86px;
+}
